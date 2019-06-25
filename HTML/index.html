@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+    </head>
+    <body>
+        <!-- Headings -->
+        <h1 title="My Company"> About Us </h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading Five</h5>
+        <h6>Heading Six</h6>
+
+        <!-- Paragraph -->
+        <p>
+            The Common Gateway Interface, or CGI, is
+            a set of standards that define how
+            information is exchanged between the web
+            server and a custom script. The CGI specs
+            are currently maintained by the <strong>NCSA</strong>
+            and NCSA.
+            <a href="http://google.com">GOOGLE</a>
+            <a href="http://youtube.com" target="_blank">YOUTUBE</a>
+        </p>
+
+        <!-- lists -->
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+            <li>List item 4</li>
+        </ul>
+
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ol>
+
+        <!-- TABLES -->
+        <table>
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>AGE</th>
+                    <th>CLASS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ALLAN KAKAI</td>
+                    <td>23</td>
+                    <td>stream 5</td>
+                </tr>
+                <tr>
+                    <td>DANIEL KAKAI</td>
+                    <td>30</td>
+                    <td>stream 9</td>
+                </tr>
+                <tr>
+                    <td>MORGAN WASIKE</td>
+                    <td>26</td>
+                    <td>stream 1</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- forms -->
+        <form action="process.php" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name = "first-name"
+                placeholder="Enter First Name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name = "LastName"
+                placeholder="Enter Last Name">
+             </div>
+            <br>
+            <div>
+                <label>EMAIL</label>
+                <input type="email"  name="email"
+                placeholder="Enter your email address">
+            </div>
+            <br>
+            <div>
+                <label>MESSAGE</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>GENDER</label>
+                <select name="gender">
+                    <option value = "male"> Male</option>
+                    <option value="female"> Female</option>
+                    <option value="Other"> Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type="number" name="age">
+            </div>
+            <br>
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <div>
+                <label>Marital Status</label>
+                <select name="marital status">
+                    <option value="single"> Single</option>
+                    <option value="married"> Married</option>
+                    <option value="divorced"> Divorced</option>
+                </select>
+            </div>
+            <br>
+            <input type="submit" name="submit" value="submit">
+        </form>
+        <br>
+
+        <!-- Button -->
+        <button>Click Me</button>
+        <br>
+        
+        <!-- Image -->
+        <a href="images/sample.jpg">
+            <img src="images/dreamcar.jpg">
+        </a>
+
+
+
+        <div style="margin-top:500px"> </div>
+
+    <script type="text/javascript">
+        document.bgColor = 'pink'
+        document.fgColor = 'black'
+        
+        title.style.margin = "50px"; //this is better than line 18 as it does not oveeride th oher style.
+        title.style.fontSize = "60px"
+    </script>
+
+    </body>
+
+</html>
