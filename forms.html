@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOOTSTRAP FORMS</title>
+
+	<!-- boostrap css framework -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- jquery CDN-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<!-- icons -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+	<!-- Boostrap JS files-->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!--forms-->
+	<br>
+	<div class="container">
+	<form>
+		<div class="form-group">
+
+			<label for="email">Email</label>
+			<input type="email" name="email" placeholder="email" required class="form-control">
+
+			<label for="Username">Username</label>
+			<input type="text" name="Username" placeholder="Username" required class="form-control">
+
+			<label for="Password">Password</label>
+			<input type="password" name="Password" placeholder="Enter Password" required class="form-control">
+
+
+			<label for="Password">Confirm Password</label>
+			<input type="password" name="Password2" placeholder="Confirm Password" required class="form-control">
+
+			<label for="Date of birth">Date of birth</label>
+			<input type="date" name="Date of birth" placeholder="Date of birth" required class="form-control">
+
+			<label for="file">File input</label>
+			<input type="file" id="file" class="form-control">
+			<small id="fileHelp" class="form-text text-muted">Max size 3mb</small>
+
+		</div>
+
+		<a href="#" class="btn btn-outline-success">Submit</a>
+	</form>
+	</div>
+
+	<br>
+
+	<!--inline forms-->
+	<div class="container">
+	<form class="form-inline">
+		<label class="sr-only" for="Username">Username</label>
+		<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+			<input type="text" name="form-control" id="inlineFormInputGroup" placeholder="Username">
+		</div>
+		  
+		<!--button-->
+		<button type="Submit" class="btn btn-success">Go</button>
+	</form>
+	</div>
+
+	<!--FORMCHECK-->
+	<div class="container">
+	<form>
+	<fieldset>
+		<legend>What are you using  this service for?</legend>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="radio" value="option1" checked class="form-check-input">Personal
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="radio" value="option2" checked class="form-check-input">Commercial
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="radio" value="option3" checked class="form-check-input">Industrial
+			</label>
+		</div>
+		
+	</fieldset>
+	<div class="form-check">
+		<label class="form-check-label">
+			<input type="checkbox" class="form-check-input">
+				Sign up for newsletter
+		</label>
+	</div>
+	<button type="Submit" class="btn btn-success">Submit</button>
+	</form>
+	</div>
+
+	
+
+
+
+
+</body>
+</html>
